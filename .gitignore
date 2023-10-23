@@ -130,3 +130,4 @@ dist
 .pnp.*
 /webapi/bin
 /webapi/obj
+/.vs/Ace/FileContentIndex
