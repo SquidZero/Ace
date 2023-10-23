@@ -1,3 +1,3 @@
 # Ace
 
-Ace is a studying app that is designed to be a replacement for Quizlet.
+Ace is a studying app that I made because I don't like Quizlet.
