@@ -1,18 +1,19 @@
 import { Button } from 'react-bootstrap';
 import App from "/src/App";
+import '/src/styles/index.css';
 export default function Root() {
     let loading = false;
     let contents = loading
         ? <p><em>Loading... Please refresh once the ASP.NET backend has started. See <a href="https://aka.ms/jspsintegrationreact">https://aka.ms/jspsintegrationreact</a> for more details.</em></p>
         : <div style={{display: "flex"} }>
                 <Button
-                    href="/decks/review"
+                    href="/review"
                     variant="primary"
                     id="btn-review">
                     Review
                 </Button>
                 <Button
-                    href="/decks/new"
+                    href="/new"
                     variant="primary"
                     id="btn-new">
                     New

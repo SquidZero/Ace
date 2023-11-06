@@ -1,5 +1,14 @@
+@font-face {
+    font-family: 'd-dinregular';
+    src: url('/src/assets/fonts/d-din-webfont.woff2') format('woff2'),
+         url('/src/assets/fonts/d-din-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 :root {
-  font-family: 'D-DIN';
+  font-family: d-dinregular;
   line-height: 1.5;
   font-weight: bolder;
 

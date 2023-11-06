@@ -1,0 +1,20 @@
+.card {
+    width:100rem;
+    height:50rem;
+}
+
+.next {
+    width: 100rem;
+    min-height: 50rem;
+    margin-left: -1px;
+    margin-top: -1px;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    border-width: 0;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.next:target {
+    color:yellow;
+}

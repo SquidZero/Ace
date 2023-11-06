@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#form-new-deck {
+    margin-top: -25rem;
+    margin-left: 5rem;
+    max-height: 100vh;
+}

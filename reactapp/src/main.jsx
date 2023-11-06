@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import Review from './components/review';
+import Review from './components/Review';
 import {
     createBrowserRouter,
     RouterProvider,
 } from "react-router-dom";
-import './index.css';
+import './styles/index.css';
 import Root from "./routes/root";
 import NewDeck from './components/NewDeck.jsx';
 
@@ -16,11 +16,11 @@ const router = createBrowserRouter([
         element: <Root />,
     },
     {
-        path: "decks/review",
+        path: "/review",
         element: <Review />,
     },
     {
-        path: "decks/new",
+        path: "/new",
         element: <NewDeck name="social studies"/>
     }
 ]);
