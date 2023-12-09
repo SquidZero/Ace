@@ -1,0 +1,6 @@
+@webapi_HostAddress = http://localhost:7148
+
+GET {{webapi_HostAddress}}/get_deck/
+Accept: application/json
+
+###
